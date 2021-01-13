@@ -41,3 +41,22 @@ Here are the steps to creating your own application from the files:
   except for the 'build' folder, 'README.md', and any files ending with '.dll' and cut/copy them. Inside the build folder should be another folder, containing a file called main.exe.  Paste the files into this folder.
   
   8. You should be able to open the game and start playing by clicking on main.exe. Thank you for playing my monopoly!
+
+
+# Installing pip
+
+If you have python but don't have pip, you can install it to the directory of main.py with these steps:
+
+  1. Create a python file in the same directory as main.py called 'get-pip.py'. 
+
+  2. Go to https://bootstrap.pypa.io/get-pip.py. Use ctrl-A to select all the text, copy it, and paste it into get-pip.py. Save get-pip.py and close it.
+  
+  3. In the Command Prompt, navigate to the directory of get-pip.py.
+  
+  4. In the Command Prompt, enter the following command:
+  
+    python get-pip.py
+   
+  This should install pip. It may take some time.
+  
+  
